@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <cardiak_beat>
+            <cardiak_config>
+                <beat_id></beat_id>
+                <beat_enable>0</beat_enable>
+            </cardiak_config>
+        </cardiak_beat>
+    </default>
+</config>

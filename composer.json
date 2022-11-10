@@ -1,0 +1,19 @@
+{
+  "name": "cardiak/integration-magento2",
+  "description": "Magento2 extension for cardiak.app",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "*"
+  },
+  "license": [
+    "MIT"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Cardiak\\Beat\\": ""
+    }
+  }
+}
